@@ -10,6 +10,6 @@
 서브페이지를 구현하려고 합니다.  
 
 (https://leekeunae.github.io/magabox/images/desktop.jpg)  
-(https://leekeunae.github.io/magabox/images/desktop.jpg)
+(https://leekeunae.github.io/magabox/images/mobile.jpg)
 
 
