@@ -7,7 +7,10 @@
 
 랜딩페이지만 제작되었으나 향후 AJAX를 활용하여  
 
-서브페이지를 구현하려고 합니다.  
+비동기식 전송으로 구현하였다.  
+
+팝업창은 Cookie를 이용하여 24시간 동안 나타나지 않게  
+제작되었다.
 
 (https://leekeunae.github.io/megabox/images/desktop.jpg)  
 (https://leekeunae.github.io/megabox/images/mobile.jpg)
