@@ -9,10 +9,21 @@
 
 비동기식 전송으로 구현하였다.  
 
-팝업창은 Cookie를 이용하여 24시간 동안 나타나지 않게  
+팝업창은 <u>를 이용하여 24시간 동안 나타나지 않게  
 제작되었다.
 
 (https://leekeunae.github.io/megabox/images/desktop.jpg)  
 (https://leekeunae.github.io/megabox/images/mobile.jpg)
 
+
+## 사용 툴 / 언어
+
+- 사용 툴
+![Visual Studio Code]()
+![]()
+![]()
+
+- 사용 언어
+
+- 플러그인
 
