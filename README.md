@@ -1,5 +1,5 @@
 [메가박스 바로가기](https://leekeunae.github.io/megabox/)
-# MEGABOX 반응형 리뉴얼
+# MEGABOX 반응형 리뉴얼🎥
 
 고정폭 방식으로 각각 제작되어 있는 MEGABOX 사이트를  
 
