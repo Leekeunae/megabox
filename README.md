@@ -24,6 +24,14 @@
 ![]()
 
 - 사용 언어
-
+  img src="https://leekeunae.github.io/mavabox/img
 - 플러그인
+
+
+***
+
+## AJAX, ASON
+CURATION 섹션에서 필요시 서버로부터 자료를 전송받아  
+섹션을 비동기방식으로 업데이트 할 수 있도록 구현하였다.
+
 
