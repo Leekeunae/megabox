@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="한국을 넘어 세계로!!! megabox">
+    <meta name="keywords" content="영화,무비,movie">
+    <meta property="og:image" content="https://pam7461.github.io/megabox/images/og.jpg">    
+    <meta property="og:title" content="메가박스">
+    <meta property="og:description" content="한국을 넘어 세계로!!! megabox">
+    <meta property="og:url" content="https://pam7461.github.io/megabox/">    
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/reset.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>    
+    <script src="./js/vanillaScript.min.js"></script>
+    <title>MEET PLAY SHARE, 메가박스</title>
+</head>
+<body>
+    <section class="wrap">
+        <section class="sec sec00 ad ad01">            
+            <ul>
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad01-01.jpg" alt="룩북"></a>
+                    </div>
+                </li>                
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad01-03.jpg" alt="본 아이덴티티"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad01-04.jpg" alt="프리큐어 올스타즈"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad01-05.jpg" alt="현대해상 다이렉트"></a>
+                    </div>
+                </li>
+            </ul>  
+            <button class="btn-ad01-close">닫기</button>
+        </section>
+        <header class="header">
+            <div class="container">
+                <h1><a href="./index.html" title="메가박스 메인으로 가기">MEGABOX</a></h1>
+                <div class="q-nav q-nav01 q-nav-top">
+                    <ul>
+                        <li><a href="#" title="VIP 라운지로 가기">VIP LOUNGE</a></li>
+                        <li><a href="#" title="멤버십으로 가기">멤버십</a></li>
+                        <li><a href="#" title="고객센터로 가기">고객센터</a></li>
+                    </ul>
+                </div>
+                <div class="q-nav q-nav02 q-nav-top">
+                    <ul>
+                        <li><a href="#" title="로그인 가기" id="btn-login-open">로그인</a></li>
+                        <li><a href="#" title="회원가입 가기">회원가입</a></li>
+                        <li><a href="#" title="빠른예매 가기">빠른예매</a></li>
+                    </ul>
+                </div>
+                <div class="q-nav q-nav03 q-nav-bottom">
+                    <ul>
+                        <li id="btn-sitemap" class="btn-qnav" data-role="site-map"><a href="#" title="사이트맵 가기"><span>사이트맵</span></a></li>
+                        <li id="btn-search" class="btn-qnav" data-role="search"><a href="#" title="검색 가기">검색</a></li>                        
+                    </ul>
+                </div>
+                <div class="q-nav q-nav04 q-nav-bottom">
+                    <ul>
+                        <li><a href="#" title="상영시간표 가기">상영시간표</a></li>
+                        <li id="btn-my-megabox" class="btn-qnav" data-role="my-megabox"><a href="#" title="나의 메가박스 가기">나의 메가박스</a></li>                        
+                    </ul>
+                </div>
+                <nav class="dt-nav">
+                    <ul class="main-nav">
+                        <li>
+                            <a href="#">영화</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">전체영화</a></li>
+                                <li><a href="#">무비포스트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">예매</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">빠른예매</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                                <li><a href="#">더 부티크 프라이빗 예매</a></li>                                
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">극장</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">전체극장</a></li>
+                                <li><a href="#">특별관</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="main-nav">
+                        <li>
+                            <a href="#">이벤트</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">지난 이벤트</a></li>
+                                <li><a href="#">당첨자 발표</a></li>
+                            </ul>
+                        </li>
+                        <li class="non-after">
+                            <a href="#">스토어</a>                            
+                        </li>
+                        <li>
+                            <a href="#">혜택</a>
+                            <ul class="sub-nav">
+                                <li><a href="#">메가박스 멤버십</a></li>
+                                <li><a href="#">제휴/할인</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>  
+                <div class="m-ticket">티켓</div>
+                <div class="m-btn-nav">내비게이션 버튼</div>
+                <div class="m-nav">
+                    <div class="m-nav-top">
+                        <h2>로그인 해주세요:)</h2>
+                        <div class="btn-m-nav-close">
+                            <button>닫기</button>
+                        </div>
+                        <ul>
+                            <li id="m-login-show"><a href="#">로그인</a></li>
+                            <li><a href="#">회원가입</a></li>
+                        </ul>
+                        <a href="#">비회원 예매확인</a>
+                    </div>
+                    <div class="m-nav-quick">
+                        <h2>QUICK MENU</h2>
+                        <ul class="quick-menu">
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb01.png" alt="영화별 예매 가기"></a>
+                                </div>
+                                <h3><a href="#">영화별 예매</a></h3>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb02.png" alt="극장별 예매 가기"></a>
+                                </div>
+                                <h3><a href="#">극장별 예매</a></h3>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb03.png" alt="특별관 예매 가기"></a>
+                                </div>
+                                <h3><a href="#">특별관 예매</a></h3>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb04.png" alt="더 뷰티크 프라이빗 가기"></a>
+                                </div>
+                                <h3><a href="#">더 뷰티크<br>프라이빗</a></h3>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb05.png" alt="이벤트 가기"></a>
+                                </div>
+                                <h3><a href="#">이벤트</a></h3>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb06.png" alt="제휴할인 가기"></a>
+                                </div>
+                                <h3><a href="#">제휴/할인</a></h3>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb07.png" alt="상담톡 가기"></a>
+                                </div>
+                                <h3><a href="#">상담톡</a></h3>
+                            </li>
+                            <li>
+                                <div class="img-box">
+                                    <a href="#"><img src="./images/ico-qnb08.png" alt="메가굿즈샵 가기"></a>
+                                </div>
+                                <h3><a href="#">메가굿즈샵</a></h3>
+                            </li>
+                        </ul>
+                        <h3><a href="#">[공지] "2024 프레겐츠 페스티벌 : 마탄의 사수" 러닝타임 변경 </a></h3>
+                        <ul class="m-sns">
+                            <li><a href="#"><img src="./images/ico-facebook.png" alt="facebook"></a></li>
+                            <li><a href="#"><img src="./images/ico-youtube.png" alt="youtube"></a></li>
+                            <li><a href="#"><img src="./images/ico-instagram.png" alt="instagram"></a></li>
+                        </ul>
+                    </div>
+                    <div class="m-nav-ad">
+                        <a href="#"><img src="./images/m-ad.jpg" alt="m-ad"></a>
+                    </div>
+                </div>
+            </div>
+            <article class="art site-map">
+                <div class="container">
+                    <h2>SITEMAP</h2>
+                    <ul class="main-sitemap">
+                        <li>
+                            <h3>영화</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">전체영화</a></li>
+                                <li><a href="#">무비포스트</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>예매</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">빠른예매</a></li>
+                                <li><a href="#">상영시간표</a></li>
+                                <li><a href="#">더 부티크 프라이빗 예매</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>극장</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">전체극장</a></li>
+                                <li><a href="#">특별관</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>이벤트</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">진행중 이벤트</a></li>
+                                <li><a href="#">지난 이벤트</a></li>
+                                <li><a href="#">당첨자발표</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>스토어</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">새로운 상품</a></li>
+                                <li><a href="#">메가티켓</a></li>
+                                <li><a href="#">팝콘/음료/굿즈</a></li>
+                                <li><a href="#">포인트몰</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>나의 메가박스</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">나의 메가박스 홈</a></li>
+                                <li><a href="#">예매/구매내역</a></li>
+                                <li><a href="#">영화관람권</a></li>
+                                <li><a href="#">스토어교환권</a></li>
+                                <li><a href="#">할인/제휴쿠폰</a></li>
+                                <li><a href="#">멤버십포인트</a></li>
+                                <li><a href="#">나의 무비스토리</a></li>
+                                <li><a href="#">나의 이벤트 응모내역</a></li>
+                                <li><a href="#">나의 문의내역</a></li>
+                                <li><a href="#">자주쓰는 할인카드</a></li>
+                                <li><a href="#">회원정보</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>혜택</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">멤버십 안내</a></li>
+                                <li><a href="#">VIP LOUNGE</a></li>
+                                <li><a href="#">제휴/할인</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>고객센터</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">고객센터 홈</a></li>
+                                <li><a href="#">자주묻는질문</a></li>
+                                <li><a href="#">공지사항</a></li>
+                                <li><a href="#">1:1문의</a></li>
+                                <li><a href="#">단체/대관문의</a></li>
+                                <li><a href="#">분실물문의</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>회사소개</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">메가박스소개</a></li>
+                                <li><a href="#">사회공헌</a></li>
+                                <li><a href="#">홍보자료</a></li>
+                                <li><a href="#">제휴/부대사업문의</a></li>
+                                <li><a href="#">온라인제보센터</a></li>
+                                <li><a href="#">IR자료</a></li>
+                                <li><a href="#">인재채용</a></li>
+                                <li><a href="#">윤리경영</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>이용정책</h3>
+                            <ul class="sub-sitemap">
+                                <li><a href="#">이용약관</a></li>
+                                <li><a href="#">위치기반서비스 이용약관</a></li>
+                                <li><a href="#">개인정보처리방침</a></li>
+                                <li><a href="#">스크린수배정에관한기준</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article class="art search">
+                <div class="container">
+                    <ul class="search-tit">
+                        <li class="active"><a href="#">예매율 순</a></li>
+                        <li><a href="#">메가박스 관객순</a></li>
+                    </ul>
+                    <div class="tab booking active">
+                        <ul class="movie-poster">
+                            <li class="active"><img src="./images/boxoffice01.jpg" alt="리볼버"></li>
+                            <li><img src="./images/boxoffice02.jpg" alt="파일럿"></li>
+                            <li><img src="./images/boxoffice03.jpg" alt="사랑의 하츄픽"></li>
+                            <li><img src="./images/boxoffice04.jpg" alt="빅토리"></li>
+                            <li><img src="./images/boxoffice05.jpg" alt="행복의 나라"></li>
+                        </ul>
+                        <ul class="movie-list">
+                            <li><span>1</span> <a href="#">리볼버</a></li>
+                            <li><span>2</span> <a href="#">파일럿</a></li>
+                            <li><span>3</span> <a href="#">사랑의 하츄픽</a></li>
+                            <li><span>4</span> <a href="#">빅토리</a></li>
+                            <li><span>5</span> <a href="#">행복의 나라</a></li>
+                        </ul>
+                        <div class="movie-form">
+                            <form action="#">
+                                <input type="text" placeholder="영화를 입력하세요">
+                                <input type="submit" value="전송">
+                            </form>
+                        </div>
+                    </div>
+                    <div class="tab gallery">
+                        <ul class="movie-poster">
+                            <li class="active"><img src="./images/film01.jpg" alt="퍼팩트 데이즈"></li>
+                            <li><img src="./images/film02.jpg" alt="존 오브 인터레스트"></li>
+                            <li><img src="./images/film03.jpg" alt="디베르 티멘토"></li>
+                            <li><img src="./images/film04.jpg" alt="수카바티"></li>
+                            <li><img src="./images/film05.jpg" alt="큐이"></li>
+                        </ul>
+                        <ul class="movie-list">
+                            <li><span>1</span> <a href="#">퍼팩트 데이즈</a></li>
+                            <li><span>2</span> <a href="#">존 오브 인터레스트</a></li>
+                            <li><span>3</span> <a href="#">디베르 티멘토</a></li>
+                            <li><span>4</span> <a href="#">수카바티</a></li>
+                            <li><span>5</span> <a href="#">큐이</a></li>
+                        </ul>
+                        <div class="movie-form">
+                            <form action="#">
+                                <input type="text" placeholder="영화를 입력하세요">
+                                <input type="submit" value="전송">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="art my-megabox">
+                <div class="container">
+                    <h2>영화를 사랑하는 당신을 위한 꼭 맞는 혜택까지 확인해 보세요!</h2>
+                    <button>로그인</button>
+                    <a href="#">혹시 아직 회원이 아니신가요?</a>
+                </div>
+            </article>
+        </header>
+        <aside class="aside aside01 modal login">
+            <div class="container">
+                <div class="login-header">
+                    <h2>로그인</h2>
+                    <button class="btn-login-close" id="btn-login-close">닫기</button>
+                </div>
+                <div class="login-body">
+                    <div class="login-form">
+                        <form action="#">
+                            <input type="text" name="loginId" id="login-id" placeholder="로그인">
+                            <input type="password" name="loginPass" id="login-pass" placeholder="비밀번호">
+                            <label><input type="checkbox" name="saveId" id="save-id">아이디 저장</label>
+                            <input type="submit" value="로그인">
+                            <ul class="login-list">
+                                <li><a href="#" title="ID/PW 찾기 선택">ID/PW 찾기</a></li>
+                                <li><a href="#" title="회원가입 선택">회원가입</a></li>
+                                <li><a href="#" title="비회원 예매확인 선택">비회원 예매확인</a></li>
+                            </ul>
+                            <ul class="login-api">
+                                <li><a class="naver" href="#" title="네이버 로그인 선택">네이버 로그인</a></li>
+                                <li><a class="kakao" href="#" title="카카오톡 로그인 선택">카카오톡 로그인</a></li>
+                                <li><a class="payco" href="#" title="페이코 로그인 선택">페이코 로그인</a></li>
+                            </ul>
+                        </form>
+                    </div>
+                    <div class="login-ad ad">
+                        <ul>
+                            <li><a href="#"><img src="./images/ad02-01.jpg" alt="ad02"></a></li>
+                            <li><a href="#"><img src="./images/ad02-02.jpg" alt="ad02"></a></li>
+                            <li><a href="#"><img src="./images/ad02-03.jpg" alt="ad02"></a></li>
+                            <li><a href="#"><img src="./images/ad02-04.jpg" alt="ad02"></a></li>
+                        </ul>                        
+                    </div>
+                </div>
+            </div>
+        </aside>       
+        <aside class="aside aside02 popup">
+            <div class="container">
+                <div class="swiper swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#"><img src="./images/pop01.jpg" alt="pop01"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./images/pop02.jpg" alt="pop02"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./images/pop03.jpg" alt="pop03"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./images/pop04.jpg" alt="pop04"></a></div>
+                        <div class="swiper-slide"><a href="#"><img src="./images/pop05.jpg" alt="pop05"></a></div>
+                    </div>                    
+                </div>
+                <div class="popup-bottom">
+                    <div class="swiper-controle">
+                        <div class="btn-start-stop">
+                            <div class="btn-start">시작</div>
+                            <div class="btn-stop active">멈춤</div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <label><input id="chk-noshow" type="checkbox"> 하루동안 보지 않기</label>
+                </div>
+                <button class="btn-popup-close">닫기</button>
+            </div>
+        </aside>
+        <section class="sec sec01 box-office">
+            <div class="container">
+                <h2>박스오피스</h2>
+                <!-- SWIPER CONTAINER -->
+                <div class="swiper box-office-swiper">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide swiper-slide01">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice01.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">1</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide02">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice02.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">2</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide03">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice03.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">3</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide04">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice04.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">4</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide05">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice05.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">5</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide06">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice06.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">6</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide07">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice07.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">7</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide08">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice08.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">8</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide09">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice09.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">9</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide swiper-slide10">
+                            <div class="poster-container">
+                                <div class="poster-box">
+                                    <div class="img-box"><img src="./images/boxoffice10.jpg" alt="리볼버"></div>
+                                    <div class="poster-num">10</div>
+                                    <div class="poster-over-txt">
+                                        <p>“약속한 돈을 받는데 무슨 각오가 필요해”
+                                            꿈에 그리던 새 아파트 입주를 기다리던 경찰 수영은 뜻하지 않은 비리에 엮이면서
+                                            모든 죄를 뒤집어쓰면 큰 보상을 해준다는 제안을 받고 이를 받아들인다.                                        
+                                            2년 후 수영의 출소일, 교도소 앞 그녀를 찾아온 사람은 생전 처음 보는 윤선 뿐
+                                            수영은 일이 잘못되었다고 직감한다.                                        
+                                            잃어버린 모든 것을 되찾기 위해 보상을 약속한 앤디를 찾아 나선 수영은
+                                            그 뒤에 있는 더 크고 위험한 세력을 마주하게 되는데…</p>
+                                        <span>7.3</span>
+                                    </div>
+                                </div>
+                                <div class="hit">543</div>
+                                <div class="ticketing"><a href="#">예매</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <ul class="box-office-nav">
+                    <li>
+                        <form action="#">
+                            <input type="text" name="#" id="#" placeholder="영화명을 입력해 주세요">
+                            <input type="submit" value="검색">
+                        </form>
+                    </li>
+                    <li><a href="#">상영시간표</a></li>
+                    <li><a href="#">박스오피스</a></li>
+                    <li><a href="#">빠른예매</a></li>
+                </ul>
+                <div class="move-icon"><img src="./images/ico-mouse.png" alt="무브 아이콘"></div>
+            </div>
+        </section>
+        <section class="sec sec02 benefit">
+            <div class="container">
+                <h2>혜택</h2>
+                <div class="benefit-wrap">
+                    <div class="benefit-banner">
+                        <div class="swiper benefit-swiper01">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="#"><img src="./images/slide-left01.jpg" alt="리볼버"></a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#"><img src="./images/slide-left02.jpg" alt="슈퍼베드4"></a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#"><img src="./images/slide-left03.jpg" alt="VR 콘서트"></a>
+                                </li>
+                            </ul>
+                            <div class="benefit-swiper-controls">
+                                <div class="swiper-scrollbar"></div>                            
+                                <div class="swiper-button-prev"></div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-start-stop">멈춤</div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="swiper benefit-swiper02">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="#"><img src="./images/slide-right01.jpg" alt="리볼버"></a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#"><img src="./images/slide-right02.jpg" alt="슈퍼베드4"></a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#"><img src="./images/slide-right03.jpg" alt="VR 콘서트"></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="banner01">
+                            <div class="img-box"><a href="#"><img src="./images/banner01-01.jpg" alt="lg유플러스"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner01-02.jpg" alt="네이버페이"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner01-03.jpg" alt="카카오뱅크"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner01-04.jpg" alt="토스페이"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner01-05.jpg" alt="톡학생증"></a></div>
+                        </div>
+                        <div class="banner02">
+                            <div class="img-box"><a href="#"><img src="./images/banner02-01.jpg" alt="lg유플러스"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner02-02.jpg" alt="톡학생증"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner02-03.jpg" alt="네이버페이"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner02-04.jpg" alt="토스페이"></a></div>
+                            <div class="img-box"><a href="#"><img src="./images/banner02-05.jpg" alt="카카오뱅크"></a></div>
+                        </div>
+                    </div>
+                    <div class="benefit-ad">
+                        <div class="img-box active"><a href="#"><img src="./images/ad02-01.jpg" alt="룩북"></a></div>
+                        <div class="img-box"><a href="#"><img src="./images/ad02-02.jpg" alt="우마무스메"></a></div>
+                        <div class="img-box"><a href="#"><img src="./images/ad02-03.jpg" alt="본 아이덴티티"></a></div>
+                        <div class="img-box"><a href="#"><img src="./images/ad02-04.jpg" alt="프리큐어"></a></div>
+                        <div class="img-box"><a href="#"><img src="./images/ad02-05.jpg" alt="현대해상"></a></div>
+                    </div>
+                    <ul class="benefit-nav">
+                        <li><a href="#">VIP LOUNGE</a></li>
+                        <li><a href="#">멤버십</a></li>
+                        <li><a href="#">할인카드안내</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">스토어</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="sec sec03 curation">
+            <div class="container">
+                <h2>큐레이션</h2>
+                <div class="curation-wrap">
+                    <div class="curation-selection">
+                        <div class="curation-poster">
+                            <a href="#"><img src="" alt="마탄의 사수"></a>
+                            <p></p>
+                        </div>
+                        <a href="#">상세정보</a>
+                        <a href="#">예매</a>
+                    </div>
+                    <div class="curation-list">
+                        <h3></h3>
+                        <h4></h4>
+                        <p id="p1"></p>
+                        <p id="p2"></p>
+                        <ul>
+                            <li>
+                                <div class="curation-list-poster">
+                                    <a href="#"><img src="./images/classic01.jpg" alt="마탄의 사수"></a>
+                                    <p class="c">C</p>
+                                </div> 
+                                <a href="#">마탄의 사수</a>
+                            </li>
+                            <li>
+                                <div class="curation-list-poster">
+                                    <a href="#"><img src="./images/film01.jpg" alt="퍼팩트 데이즈"></a>
+                                    <p class="f">F</p>
+                                </div> 
+                                <a href="#">퍼팩트 데이즈</a>
+                            </li>
+                            <li>
+                                <div class="curation-list-poster">
+                                    <a href="#"><img src="./images/classic02.jpg" alt="그리스 신화의 비극"></a>
+                                    <p class="c">C</p>
+                                </div> 
+                                <a href="#">그리스 신화의 비극 : 서양문화에 영향을 준 신화들</a>
+                            </li>
+                            <li>
+                                <div class="curation-list-poster">
+                                    <a href="#"><img src="./images/film02.jpg" alt="존 오브 인터레스트"></a>
+                                    <p class="f">F</p>
+                                </div> 
+                                <a href="#">존 오브 인터레스트</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec sec04 megabox-info">
+            <div class="container">
+                <h2>메가박스 안내</h2>
+                <ul class="info-list">
+                    <li>
+                        <a href="#"><img src="./images/megainfo-atmos.jpg" alt="atmos"></a>
+                    </li>
+                    <li class="new">
+                        <a href="#"><img src="./images/megainfo-boutique.jpg" alt="boutique"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/megainfo-comfort.jpg" alt="comfort"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/megainfo-dolby.jpg" alt="dolby"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/megainfo-kids.jpg" alt="kids"></a>
+                    </li>
+                    <li class="new">
+                        <a href="#"><img src="./images/megainfo-mx4d2.jpg" alt="mx4d2"></a>
+                    </li>
+                </ul>
+                <ul class="info-notice">
+                    <li>메가박스</li>
+                    <li><a href="#"><span>[공지]</span> [북앤라이프] 도서문화상품권 서비스 점검 안내 (8/28)</a></li>
+                    <li><span>2024.</span>08.13</li>
+                    <li><a href="#">더보기</a></li>
+                </ul>
+                <table class="info-nav">
+                    <tr>
+                        <td><a href="#">고객센터</a></td>
+                        <td><a href="#">자주 묻는 질문</a></td>
+                        <td><a href="#">1:1 문의</a></td>
+                        <td><a href="#">단체/대관문의</a></td>
+                        <td><a href="#">분실물 문의/접수</a></td>
+                        <td><a href="#">더 부티크 프라이빗<br>대관예매</a></td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section class="sec sec05 ad ad02">
+            <ul>
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad03-01.jpg" alt="룩북"></a>
+                    </div>
+                </li>                
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad03-03.jpg" alt="본 아이덴티티"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad03-04.jpg" alt="프리큐어 올스타즈"></a>
+                    </div>
+                </li>
+                <li>
+                    <div class="container">
+                        <a href="#"><img src="./images/ad03-05.jpg" alt="현대해상 다이렉트"></a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <ul class="footer-nav">
+                    <li><a href="#">회사소개</a></li>
+                    <li class="t-hidden"><a href="#">인재체용</a></li>
+                    <li class="t-hidden"><a href="#">사회공헌</a></li>
+                    <li class="t-hidden"><a href="#">제휴/광고/부대사업문의</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">위치기반서비스 이용약관</a></li>
+                    <li><a href="#"><strong>개인정보처리방침</strong></a></li>
+                    <li><a href="#">윤리경영</a></li>
+                </ul>
+                <div class="cinema-search">
+                    <a href="#">극장찾기</a>
+                </div>
+                <div class="footer-logo">
+                    <img src="./images/logo-gray.png" alt="megabox logo">
+                </div>
+                <address class="address">서울특별시 성동구 왕십리로 50, 6층 (성수동1가, 메가박스 스퀘어) ARS 1544-0070 대표이메일 m.dreamcenter@partner.megabox.co.kr<br>대표자명 홍정인 · 개인정보보호책임자 강병철 · 사업자등록번호 211-86-59478 · 통신판매업신고번호 2023-서울성동-0177<br>COPYRIGHT © MegaboxJoongAng, Inc. All rights reserved</address>
+                <ul class="footer-sns">
+                    <li><a href="#"><img src="./images/ico-youtube.png" alt="youtube"></a></li>
+                    <li><a href="#"><img src="./images/ico-instagram.png" alt="instagram"></a></li>
+                    <li><a href="#"><img src="./images/ico-facebook.png" alt="facebook"></a></li>
+                    <li><a href="#"><img src="./images/ico-twitter.png" alt="twitter"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
